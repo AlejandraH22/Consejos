@@ -1,0 +1,105 @@
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Italic';
+  
+}
+
+body {
+  background: linear-gradient(to right, hsla(165, 70%, 78%, 0.63), hsla(300, 100%, 25%, 0.616)), url(./Img/Cuadros3.jfif);
+  display:flex;
+  margin: 0;
+  padding-top: 7rem;
+  
+  
+}
+.textos-header{
+  position:fixed;
+  flex-direction:column;
+  font-size: 50px;
+  top: 0rem;
+  right: 30rem;
+  justify-content: center;
+}
+.textos-header h2{
+  position:fixed;
+  font-size: 20px;
+  top: 3rem;
+  right: 70rem;
+}
+
+.add {
+  position: fixed;
+  top: 4rem;
+  right: 2rem;
+  background-color: rgb(188, 131, 241);
+  color: #080808;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+    
+}
+
+
+.add:active {
+  transform: scale(0.98);
+}
+
+.note {
+  
+  box-shadow: 0 0 10px 4px rgba(19, 18, 18, 0.1);
+  margin: 20px 20px;
+  height: 300px;
+  width: 350px;
+  overflow-y:scroll;
+  display: flex;
+  
+}
+
+.note .tools {
+  background-color: #90a4fc;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  
+}
+
+.note .tools button {
+  background-color: transparent;
+  border: none;
+  color: #0f0000;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.note textarea {
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  height: 400px;
+  width: 300%;
+  padding: 20px;
+  
+}
+
+.main {
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+.Img-marca {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid beige;
+  border-radius: 50px;
+  
+ 
+  
+}
